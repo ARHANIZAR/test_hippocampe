@@ -59,9 +59,7 @@ company.name AS company_name FROM employe INNER JOIN company ON employe.id_compa
 
     public function getCountEmployesGroupedByRange() {
         $this->query('SELECT concat(20*floor((YEAR(CURDATE()) - YEAR(employe.birthday))/20), \'-\', 20*floor((YEAR(CURDATE()) - YEAR(employe.birthday))/20) + 20)
-    as `range`,count(employe.id) as countEmployes FROM Employe GROUP BY `range`;
-  from employe) t  
-');
+    as `range`,count(employe.id) as countEmployes FROM Employe GROUP BY `range` ');
         $rows = $this->resultSet();
         return $rows;
     }
