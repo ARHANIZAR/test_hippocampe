@@ -9,13 +9,13 @@
 
 ## Installing
 
->Installer les dépendance via composer.
+>Installer les dépendances via composer.
 >
 >```
 >$ composer install
 >```
 
-Les librairie utilisé sont :
+Les librairies utilisés sont :
 * Twig v3.0
 * monolog v2.1
 
@@ -75,14 +75,11 @@ Pour tester l'application executer la commande :
  $ php -S localhost:8000
 ```
 
-Vous pouvez consulter les logs dans les fichier ci-dessous 
+Vous pouvez consulter les logs dans les fichiers ci-dessous 
 
 * log/app.log
 * log/errors.log
 * log/request.log
-
-
-
 
 
 
