@@ -1,0 +1,8 @@
+[2020-07-15T00:54:23.267837+00:00] app.INFO: firstName : Test [] []
+[2020-07-15T00:54:23.268117+00:00] app.INFO: lastName : test nom [] []
+[2020-07-15T00:54:23.268170+00:00] app.INFO: birthday : 1980-06-24 [] []
+[2020-07-15T00:54:23.268200+00:00] app.INFO: companyId : 1 [] []
+[2020-07-15T00:57:50.675765+00:00] app.INFO: firstName : Julien [] []
+[2020-07-15T00:57:50.676118+00:00] app.INFO: lastName : De la tullaye [] []
+[2020-07-15T00:57:50.676236+00:00] app.INFO: birthday : 1996-10-10 [] []
+[2020-07-15T00:57:50.676327+00:00] app.INFO: companyId : 1 [] []

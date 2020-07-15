@@ -1,0 +1,20 @@
+{
+    "name": "mac/test_hippocampe",
+    "description": "Test PHP ",
+    "authors": [
+        {
+            "name": "Aymane RHANIZAR",
+            "email": "rhanizar.aymane@gmail.com"
+        }
+    ],
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^2.1",
+        "twig/twig": "^3.0"
+    }
+}
